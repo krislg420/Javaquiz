@@ -1,3 +1,14 @@
+// Questions to the quiz// 
+var questions = [
+    new Question("Hyper Text Markup Language Stand For?", ["JavaScript", "JQuery","CSS", "HTML"], "HTML"),
+    new Question("Which language is used for styling web pages?", ["HTML", "JQuery", "CSS", "JavaScript"], "CSS"),
+    new Question("Commonly used data types do not include?", ["Strings", "Numbers","Alerts", "Booleans"], "Alerts"),
+    new Question("String values must be enclosed within ____  when being assigned to variables?", ["Parenthesis", "Curly Brackets", "Commas", "Quotes"], "Parenthesis"),
+    new Question("The condition in an if/else statement is enclosed within?", ["Quotes", "Period", "Square Brackets", "Curly Brackets"], "Curly Brackets")];
+ 
+    var quiz = new Quiz(questions);
+
+ 
 function Quiz(questions) {
     this.score = 0;
     this.questions = questions;
@@ -70,19 +81,23 @@ function guess(id, guess) {
     gameOver += "<h2 id='score'> Your score: " + quiz.score + "</h2>";
     var element = document.getElementById("quiz");
     element.innerHTML = gameOver;
-};
- 
-// Questions to the quiz// 
-var questions = [
-    new Question("Hyper Text Markup Language Stand For?", ["JavaScript", "JQuery","CSS", "HTML"], "HTML"),
-    new Question("Which language is used for styling web pages?", ["HTML", "JQuery", "CSS", "JavaScript"], "CSS"),
-    new Question("Commonly used data types do not include?", ["Strings", "Numbers","Alerts", "Booleans"], "Alerts"),
-    new Question("String values must be enclosed within ____  when being assigned to variables?", ["Parenthesis", "Curly Brackets", "Commas", "Quotes"], "Parenthesis"),
-    new Question("The condition in an if/else statement is enclosed within?", ["Quotes", "Quotes", "Square Brackets", "Curly Brackets"], "Curly Brackets")];
- 
 
-var quiz = new Quiz(questions);
+    if (score === 5){
+        alert('Your Score is ' + quiz.score);
+        alert('YOU DID PERFECT');
+      } else if (score === 4) {
+        alert('Your Score is ' + quiz.score);
+     } else if (score === 3) {
+        alert('Your Score is ' + quiz.score);
+     } else if (score === 2) {
+        alert('Your Score is ' + quiz.score);
+     } else {
+        alert('Your Score is ' + quiz.score);
+  
+      }
+};
 
 populate();
+
 
 
