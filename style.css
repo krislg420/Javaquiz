@@ -6,13 +6,12 @@ body {
  .grid {
     width: 600px;
     height: 500px;
-    margin: 0 auto;
+    margin: auto;
     background-color: black;
     padding: 10px 50px 50px 50px;
     border: 2px solid #cbcbcb;
 }
  .grid h1 {
-    font-family: "sans-serif";
     background-color: green;
     font-size: 60px;
     text-align: center;
