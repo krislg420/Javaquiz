@@ -77,7 +77,7 @@ function guess(id, guess) {
     element.innerHTML = "Question " + currentQuestionNumber + " of " + quiz.questions.length;
 };
  function shoScore() {
-    var gameOver = "<h1>Result</h1>";
+    var gameOver = "<h1>Results</h1>";
     gameOver += "<h2 id='score'> Your score: " + quiz.score + "</h2>";
     var element = document.getElementById("quiz");
     element.innerHTML = gameOver;

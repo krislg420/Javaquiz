@@ -6,3 +6,6 @@ I will be creating a quiz for my peers and myself to test our knowledge on JavaS
 Feel like being challenged?? Take the quiz and see where you rank.
 
 ////////////////////////////////////////////////////////////////////////////////////////
+
+
+file:///Users/chrisgarcia/javaquiz/Javaquiz/index.html
