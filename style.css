@@ -1,0 +1,52 @@
+
+/* color of the background */
+body {
+    background-color: darkolivegreen;
+}
+ .grid {
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: black;
+    padding: 10px 50px 50px 50px;
+    border: 2px solid #cbcbcb;
+}
+ .grid h1 {
+    font-family: "sans-serif";
+    background-color: green;
+    font-size: 60px;
+    text-align: center;
+    color: black;
+    padding: 2px 0px;
+}
+/* color of the score as its displayed */
+#score {
+    color: green;
+    text-align: center;
+    font-size: 30px;
+}
+ .grid #question {
+    font-size: 35px;
+    color: green;
+}
+ .buttons {
+    margin-top: 30px;
+}
+
+/* color of the buttons*/
+#btn0, #btn1, #btn2, #btn3 {
+    background-color:green;
+    width: 250px;
+    font-size: 20px;
+    color: black;
+    border: 1px solid limegreen;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+}
+/* color of the button when you move pointer over the button*/ 
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    background-color:limegreen;
+    color:black;
+}
+ 
